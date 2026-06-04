@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "980250872524",
+    "project_id": "we-mohae",
+    "storage_bucket": "we-mohae.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980250872524:android:b6ba5907299c1f5de15069",
+        "android_client_info": {
+          "package_name": "com.woorimwohae.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980250872524-j9h3q39thjlhtg91vv8v6p4uk4euta5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSimx17GZDCjZ0syW9GogIxhhAFC6Rx0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980250872524-j9h3q39thjlhtg91vv8v6p4uk4euta5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">우리모해</string>
+    <string name="notification_channel_id">schedule_reminders</string>
+    <string name="notification_channel_name">일정 알림</string>
+    <string name="notification_channel_description">우리모해 일정과 결제일 알림</string>
+    <string name="web_load_error">인터넷 연결을 확인한 후 다시 시도해주세요.</string>
+</resources>

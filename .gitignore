@@ -12,4 +12,10 @@
 /captures
 .externalNativeBuild
 .cxx
+keystore.properties
+*.jks
+*.keystore
 local.properties
+/app/release/app-release.apk
+/app/release/app-release.dm
+/app/release/baselineProfiles/1/app-release.dm

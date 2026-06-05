@@ -5,7 +5,6 @@
         <item name="android:colorAccent">@color/rosewood</item>
         <item name="android:navigationBarColor">@color/white</item>
         <item name="android:statusBarColor">@color/cloud</item>
-        <item name="android:windowLightNavigationBar">true</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:windowActionModeOverlay">true</item>
     </style>

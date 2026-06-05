@@ -1,14 +1,17 @@
 package com.woorimwohae.app.push
 
+import android.Manifest
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
+import android.content.pm.PackageManager
 import android.graphics.Color
 import android.os.Build
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
+import androidx.core.content.ContextCompat
 import com.woorimwohae.app.MainActivity
 import com.woorimwohae.app.R
 import com.woorimwohae.app.web.WebUrlPolicy
@@ -32,6 +35,13 @@ object NotificationHelper {
   }
 
   fun showNotification(context: Context, title: String, body: String, data: Map<String, String>) {
+    if (
+      Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU &&
+        ContextCompat.checkSelfPermission(context, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED
+    ) {
+      return
+    }
+
     createChannel(context)
     val route = routeForData(data)
     val intent =
